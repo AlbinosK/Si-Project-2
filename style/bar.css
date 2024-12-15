@@ -1,0 +1,46 @@
+:root {
+  --bar-background: rgb(219, 216, 216);
+  --input-background: rgb(115, 115, 115);
+  --input-font-size: 40px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  align-items: center;
+  gap: 100px;
+  padding: 10px;
+}
+
+.search-bar {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar > section {
+  display: flex;
+  background: var(--bar-background);
+  border-radius: 30px;
+  height: 50px;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.search {
+  height: 30px;
+}
+
+.search-bar > section > img {
+  height: 1.5em;
+  margin-right: 10px;
+}
+
+/* .bar > section > input {
+  background: var(--input-background);
+  font-size: var(--input-font-size);
+  margin-left: 5px;
+} */

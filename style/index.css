@@ -1,0 +1,19 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+}
+.product {
+  border: 1px solid gray;
+}
+
+.products > h1 {
+  display: flex;
+  align-items: center;
+}
+.products > h1 > img {
+  height: 50px;
+  width: 60px;
+  margin-left: 10px;
+}
