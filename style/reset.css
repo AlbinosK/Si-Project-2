@@ -11,6 +11,7 @@ html {
 /* Resetowanie marginesów zewnętrznych dla elementu body oraz ustawienie minimalnej wysokości na 100% */
 body {
   margin: 0;
+  padding: 0;
   min-height: 100%;
 }
 
